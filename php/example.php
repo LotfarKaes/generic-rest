@@ -26,7 +26,7 @@ $context = stream_context_create(
 );
 # perform the actual request with our context
 $result = file_get_contents(
-  'https://api.genericmobile.se/SmsGateway/api/v1/Message',
+ 'https://api.genericmobile.se/SmsGateway/api/v1/Message',
   false,
   $context
 );
